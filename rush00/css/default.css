@@ -1,0 +1,131 @@
+body {
+    background-color: #777;
+    text-align: center;
+}
+h2 {
+	color: blue;
+	text-align: center;
+}
+form {
+    text-align: left;
+}
+input {
+    border-radius: 5px;
+    margin: 2px;
+}
+#actions {
+    float: right;
+}
+#actions > a {
+    margin: 5px;
+}
+#description {
+    display: inline-block;
+    font-size: 1.1em;
+    margin-top: 40px;
+}
+#content {
+    text-align: justify;
+}
+#footer {
+    text-align: right;
+    font-size: 0.8em;
+}
+#header {
+    height: 100px;
+}
+#install-form {
+    margin: 10px auto;
+    width: 250px;
+}
+#action-form {
+    margin: 10px auto;
+    width: 150px;
+}
+#logo {
+    background-color: black;
+    border-radius: 30px 5px;
+    color: #EEE;
+    float: left;
+    height: 70px;
+    margin-left: 10px;
+}
+#logo > a {
+    color: inherit;
+    text-decoration: none;
+}
+#meta {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#meta > li {
+    margin-right: 10px;
+    display: inline-block;
+}
+#reset-form {
+    margin: 10px auto;
+    width: 150px;
+}
+#search {
+    width: 118px;
+    margin-right: 10px;
+}
+#search > form > input {
+    border-radius: 5px;
+    width: 100%;
+}
+#table-admin-articles table {
+	width:	60vw;
+	margin:	auto;
+	border:	1px solid;
+}
+#table-admin-articles td {
+	width:	auto;
+	margin:	auto;
+	text-align:	center;
+	border:	1px solid;
+	font-size: 1vw;
+}
+#table-admin-articles	th {
+	border:	1px solid black;
+	width:	auto;
+	font-size:	1.2vw;
+	background-color:	#5D591E;
+	color:	white;
+}
+#page-article {
+	border: none;
+}
+.container {
+    background-color: #EEE;
+    /* border: 1px solid red; */
+    padding: 5px;
+    margin: 5px auto;
+}
+.full {
+    width: 800px;
+}
+.icon {
+    display: block;
+    background-color: #CCC;
+    font-family: Verdana;
+    text-decoration: none;
+    margin: 5px 30px;
+}
+.radio-group {
+    display: inline;
+    margin: 5px;
+}
+.tiny-text {
+    font-size: 0.72em;
+}
+.wrapper {
+    margin: 10px 0;
+    padding: 0 40px;
+
+.admin-users {
+	text-decoration: underline;
+}

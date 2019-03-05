@@ -1,0 +1,20 @@
+body					{font-family:"Arial"; font-size:1vw;}
+h1						{background-color:yellow; text-align:center; font-style:italic;}
+div						{text-align:center;}
+table					{width:100%; height:100%;}
+h2						{text-align:center; margin:10px;}
+h2.liquid				{color:blue;}
+h2.gas					{color:red;}
+p						{margin:3px;}
+p.atomic-weight			{text-align:right;}
+td.alkali-met			{background-color:#f24a4e;}
+td.alkaline-earth-met	{background-color:#f3ce93;}
+td.metalloid			{background-color:#b9bb7f;}
+td.lanthanoid			{background-color:#f2a3f4;}
+td.actinoid				{background-color:#f27ab9;}
+td.transition-met		{background-color:#f2a9aa;}
+td.poor-met				{background-color:#b8b8b8;}
+td.other-non-met		{background-color:#d7f872;}
+td.noble-gas			{background-color:#abf4f3;}
+td.halogens				{background-color:#000080; color:white;}
+td.unknown				{color:grey;}

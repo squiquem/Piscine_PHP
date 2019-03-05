@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>It's over 9000</title>
+		<style>
+			body {
+				text-align: center;
+				background-color: black;
+				color: white
+			}
+			select {
+				width: 300px;
+				height: 44px;
+				text-indent: 140px;
+			}
+			input {
+				width: 300px;
+				height: 44px;
+				text-align: center;
+			}
+		</style>
+		<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script>
+			var calc;
+			var l;
+			var r;
+			var op;
+			
+			$(document).ready(function() {
+				calc = $('#calc');
+				l = $('#left');
+				r = $('#right');
+				op = $('#operator');
+				calc.submit(submit);
+				setInterval("alert('Please, use me...')", 30000);
+			});
+			
+				function isValid(n) {
+					if (n == parseInt(n, 10) && n >= 0)
+						return 1;
+					else
+						return 0;
+				}
+
+				function submit(event) {
+					event.preventDefault();
+					var left = l.val();
+					var right = r.val();
+					if (!isValid(left) || !isValid(right)) {
+						alert ("Error :(\n");
+						return false;
+					}
+					switch (op.val()) {
+						case ('+'):
+							total = Number(left) + Number(right);
+							break;
+						case ('-'):
+							total = Number(left) - Number(right);
+							break;
+						case ('*'):
+							total = Number(left) * Number(right);
+							break;
+						case ('/'):
+							if (Number(right) === 0)
+								total = "It's over 9000!";
+							else
+								total = Number(left) / Number(right);
+							break;
+						case ('%'):
+							if (Number(right) === 0)
+								total = "It's over 9000!";
+							else
+								total = Number(left) % Number(right);
+							break;
+						default:
+							total = "Operation not found";
+							break;
+					}
+					alert(total);
+					console.log(total);
+				}
+			
+		</script>
+	</head>
+	<body>
+		<h1>Calculette</h1>
+		<form action="" id="calc">
+			<input type="text" id="left"/>
+			<br/><br/>
+			<select id="operator">
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+				<option value="%">%</option>
+			</select>
+			<br/><br/>
+			<input type="text" id="right"/>
+			<br/><br/>
+			<input type="submit" name="submit" value="Try me!"/>
+		</form>
+	</body>
+</html>

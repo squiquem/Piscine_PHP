@@ -1,0 +1,32 @@
+
+<- Matrix ----------------------------------------------------------------------
+The Matrix class handles 4x4 Matrix.
+It can use the following values as 'preset' :
+IDENTITY    = 'IDENTITY',
+SCALE       = 'SCALE',
+RX          = 'OX ROTATION',
+RY          = 'OY ROTATION',
+RZ          = 'OZ ROTATION',
+TRANSLATION = 'TRANSLATION',
+PROJECTION  = 'PROJECTION';
+
+You need to fill these arguments :
+IDENTITY    -> 
+SCALE       -> 'scale'
+RX          -> 'angle' (of rotation)
+RY          -> 'angle' (of rotation)
+RZ          -> 'angle' (of rotation)
+TRANSLATION -> 'vtc' ( class Vector ) of the translation
+PROJECTION  -> 'fov' (= Field Of View, in degrees ), 'ratio' (width/height of
+screen), 'near' and 'far' (z distances)
+
+When a Matrix is created, you won't be able to change its values after.
+
+The following method are provided for this Class:
+
+- mult() : return a new matrix corresponding to the multiplication of the
+instance by the argument
+
+- transformVertex() : return a new Vertex corresponding to the matrix applied
+to the one sent in argument
+---------------------------------------------------------------------- Matrix ->

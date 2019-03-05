@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://192.168.99.100:8100/index.php</loc>
+    </url>
+    <url>
+        <loc>http://192.168.99.100:8100/login.php</loc>
+    </url>
+    <url>
+        <loc>http://192.168.99.100:8100/logout.php</loc>
+    </url>
+    <url>
+        <loc>http://192.168.99.100:8100/privacy.php</loc>
+    </url>
+    <url>
+        <loc>http://192.168.99.100:8100/search.php</loc>
+    </url>
+    <url>
+        <loc>http://192.168.99.100:8100/signup.php</loc>
+    </url>
+</urlset>
