@@ -14,4 +14,4 @@ ____
 - :heavy_check_mark:  d07 : 100 / 100
 - :x:  d08 : 0 / 100
 - :heavy_check_mark:  d09 : 80 / 100
-- :x:  rush01 : 0 / 100	:x:
+- :x:  rush01 : 0 / 100
