@@ -1,6 +1,6 @@
 # Piscine PHP
 
-Piscine PHP / MySQL / HTML / CSS / JavaScript
+Piscine PHP / SQL / HTML / CSS / JavaScript
 ____
 
 - d00 : HTML - CSS <br/>
