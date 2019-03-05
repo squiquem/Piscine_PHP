@@ -3,15 +3,27 @@
 Piscine PHP / MySQL / HTML / CSS / JavaScript
 ____
 
-- :heavy_check_mark:  d00 : 90 / 100
-- :heavy_check_mark:  d01 : 87 / 100
-- :x:                 d02 : 27 / 100	  
-- :heavy_check_mark:  d03 : 87 / 100
-- :heavy_check_mark:  d04 : 60 / 100
-- :heavy_check_mark:  rush00 : 64 / 100
-- :heavy_check_mark:  d05 : 80 / 100
-- :heavy_check_mark:  d06 : 60 / 100
-- :heavy_check_mark:  d07 : 100 / 100
-- :x:  d08 : 0 / 100
-- :heavy_check_mark:  d09 : 80 / 100
-- :x:  rush01 : 0 / 100
+- d00 : HTML - CSS
+  :heavy_check_mark:  90 / 100
+- d01 : 
+  :heavy_check_mark:  87 / 100
+- d02 : PHP
+  :x:                 27 / 100
+- d03 : PHP
+  :heavy_check_mark:  87 / 100
+- d04 : PHP
+  :heavy_check_mark:  60 / 100
+- rush00 :
+  :heavy_check_mark:  64 / 100
+- d05 : SQL
+  :heavy_check_mark:   80 / 100
+- d06 : Object-oriented PHP
+  :heavy_check_mark:   60 / 100
+- d07 : Object-oriented PHP
+  :heavy_check_mark:   100 / 100
+- d08 : Object-oriented PHP
+  :x:                  0 / 100
+- d09 : JavaScript
+  :heavy_check_mark:   80 / 100
+- rush01 :
+  :x:                  0 / 100
