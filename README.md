@@ -3,9 +3,9 @@
 Piscine PHP / MySQL / HTML / CSS / JavaScript
 ____
 
-- d00 : HTML - CSS
+- d00 : HTML - CSS <br/>
   :heavy_check_mark:  90 / 100
-- d01 : 
+- d01 : HTML - CSS <br/>
   :heavy_check_mark:  87 / 100
 - d02 : PHP
   :x:                 27 / 100
