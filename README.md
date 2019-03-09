@@ -27,3 +27,6 @@ ____
   :heavy_check_mark:   80 / 100
 - rush01 : <br/>
   :x:                  0 / 100
+____
+
+If you have any question or suggestion, feel free to send me an email at squiquem@student.42.fr
